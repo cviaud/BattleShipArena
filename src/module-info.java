@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Cedric
+ *
+ */
+module battleShipArena {
+}
