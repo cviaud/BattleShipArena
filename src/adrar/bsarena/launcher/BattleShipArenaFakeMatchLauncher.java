@@ -1,6 +1,7 @@
 package adrar.bsarena.launcher;
 
 import adrar.bsarena.service.Arena;
+import adrar.bsarena.service.BattleShipPlayer;
 import adrar.bsarena.service.BattleShipPlayerMock;
 
 public class BattleShipArenaFakeMatchLauncher {
@@ -12,8 +13,8 @@ public class BattleShipArenaFakeMatchLauncher {
 
 	public static void main(String[] args) {
 
-		BattleShipPlayerMock castorPlayer = new BattleShipPlayerMock(CASTOR);
-		BattleShipPlayerMock polluxPlayer = new BattleShipPlayerMock(POLLUX);
+		BattleShipPlayer castorPlayer = new BattleShipPlayerMock(CASTOR);
+		BattleShipPlayer polluxPlayer = new BattleShipPlayerMock(POLLUX);
 
 		Arena arena = new Arena(castorPlayer, polluxPlayer);
 
